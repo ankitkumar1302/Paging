@@ -21,6 +21,23 @@
 
 <ol>
   <li>Get API key</li>
+
+<h2>Running the app</h2>
+
+<p>The app uses the Unsplash API to load images.</p> 
+
+<ol>
+  <li>Get an API key from <a href="https://unsplash.com/developers">Unsplash Developers</a></li>
+  
+  <li>Add the key to local.properties</li>
+  
+  <li>Sync gradle</li>
+  
+  <li>Run the app on emulator or device</li>
+</ol>
+
+<p>The app will now load paginated images from Unsplash using your API key!</p>
+  
   <li>Sync gradle</li> 
   <li>Run on device or emulator</li>
 </ol>
