@@ -1,4 +1,4 @@
- #<h1>Paging 3 with Compose Demo</h1>
+<h1>Paging 3 with Compose Demo</h1>
 
 <h2>Overview</h2>
 
