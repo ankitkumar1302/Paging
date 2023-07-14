@@ -1,26 +1,28 @@
 <h1>Paging 3 with Compose Demo</h1>
 
-<h2>Overview</h2>
+<!-- Existing overview section -->
 
-<p>The app shows a scrollable list of data loaded from a backend API using Paging 3 for gradual loading.</p>
-
-<p>The UI is implemented using Jetpack Compose, with a LazyColumn for showing the paged list data.</p>
-
-<p>Key implementations:</p>
+<h2>Key Implementations</h2>
 
 <ul>
-  <li>LazyColumn - For displaying the paged list</li>  
-  <li>PagingDataAdapter - For binding paged data to LazyColumn</li>
-  <li>PagingSource - For loading pages of data from network</li>
-  <li>ViewModels - To stream PagingData to Compose UI</li>
+  <li>Dagger Hilt - For dependency injection</li>
+  <li>Kotlin KAPT - For annotation processing</li>
+  <li>Kotlin Serialization - For parsing JSON</li>  
+  <li>Paging 3 - For gradual data loading</li>
+  <li>Jetpack Compose - For building UI</li>
 </ul>
 
-<h2>Running the app</h2>
+<!-- Running app section -->
 
-<p>The app is built using Compose for the UI. To run:</p>
+<h2>Building the Project</h2>
+
+<p>To build the app:</p>
 
 <ol>
-  <li>Get API key</li>
+  <li>Enable kapt plugin in Gradle</li>
+  <li>Add KotlinX Serialization dependencies</li>
+  <li>Sync and compile using Dagger Hilt KAPT</li>
+</ol>
 
 <h2>Running the app</h2>
 
@@ -37,9 +39,5 @@
 </ol>
 
 <p>The app will now load paginated images from Unsplash using your API key!</p>
-  
-  <li>Sync gradle</li> 
-  <li>Run on device or emulator</li>
-</ol>
 
-<p>Scroll down to load more pages thanks to Paging 3 and Compose!</p>
+<p>Then run the app on a device or emulator as usual.</p>
